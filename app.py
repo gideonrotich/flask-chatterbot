@@ -11,6 +11,8 @@ english_bot = ChatBot("English Bot",
 trainer = ChatterBotCorpusTrainer(english_bot)
 trainer.train("chatterbot.corpus.english")
 
+# test
+
 @app.route("/")
 def home():
     return render_template("index.html")
