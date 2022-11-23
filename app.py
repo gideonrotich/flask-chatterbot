@@ -11,7 +11,7 @@ english_bot = ChatBot("English Bot",
 trainer = ChatterBotCorpusTrainer(english_bot)
 trainer.train("chatterbot.corpus.english")
 
-# testh
+# testhf
 
 @app.route("/")
 def home():
